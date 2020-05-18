@@ -1,4 +1,4 @@
-# OpenMRS
+#  OpenMRS
 
 My notes for contributing to [OpenMRS](https://openmrs.org/).
 
@@ -56,15 +56,45 @@ There's the [wiki](https://wiki.openmrs.org/display/docs/Developer+Guide) and al
 - [Creating Modules](https://wiki.openmrs.org/display/docs/Creating+Modules)
   - [Your First Module](https://wiki.openmrs.org/display/docs/Creating+Your+First+Module)
 - Review [Unassigned Projects](https://wiki.openmrs.org/display/projects/Available+Development+Projects) if you want to find a larger project to work on.
+- [Documentation roadmap ](https://trello.com/b/uSIAARXh/openmrs-documentation-roadmap) for updating/editing documentation tasks and priorities (A GREAT START)
+- [Documentation Guide](https://wiki.openmrs.org/display/docs/OpenMRS+Documentation+Guide)
+
+## Example Commits
+
+- https://github.com/openmrs/openmrs-contrib-android-client/pull/736
+- 
 
 ## Technical
 - [Technical Overview](https://wiki.openmrs.org/display/docs/Technical+Overview)
 - [Architecture](http://devmanual.openmrs.org/en/Technology/architecture.html)
-- [API](https://wiki.openmrs.org/display/docs/API)
+- [OpenMRS REST API documentation](https://rest.openmrs.org/#openmrs-rest-api)
 
+## Directories
 
+<table>
+ <tr>
+  <td>api/</td>
+  <td>Java and resource files for building the java api jar file.</td>
+ </tr>
+ <tr>
+  <td>tools/</td>
+  <td>Meta code used during compiling and testing. Does not go into any released binary (like doclets).</td>
+ </tr>
+ <tr>
+  <td>web/</td>
+  <td>Java and resource files that are used in the webapp/war file.</td>
+ </tr>
+ <tr>
+  <td>webapp/</td>
+  <td>files used in building the war file (contains JSP files on older versions).</td>
+ </tr>
+ <tr>
+  <td>pom.xml</td>
+  <td>The main maven file used to build and package OpenMRS.</td>
+ </tr>  
+</table>
 
 ## Issues I Could Run Into
 
-- Java version
-  - JDK and JRE
+- Java versions (JDK, JRE)
+- MySQL version
