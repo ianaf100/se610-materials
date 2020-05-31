@@ -10,20 +10,16 @@ My notes for contributing to [OpenMRS](https://openmrs.org/).
 - [JIRA Issue Tracking](https://tickets.openmrs.org/secure/Dashboard.jspa)
 
 ## Developer Documentation
-There's the [wiki](https://wiki.openmrs.org/display/docs/Developer+Guide) and also a separate [dev manual](http://devmanual.openmrs.org/en/)
-
-- [Developer's Guide](https://wiki.openmrs.org/display/docs/Developer+Guide)
+- [Developer's Guide Wiki](https://wiki.openmrs.org/display/docs/Developer+Guide)
+- [Developer's Manual](http://devmanual.openmrs.org/en/) (separate from the wiki)
+- [Implementer's Guide](http://guide.openmrs.org/en/) (separate from the wiki)
 - [Getting Started Checklist](https://wiki.openmrs.org/display/docs/Getting+Started+as+a+Developer) 
   - [Another One](http://devmanual.openmrs.org/en/What_next/devChecklist.html)
 - [A Separate Getting Started Guide](https://mauryanguidetoopenmrsdevs.wordpress.com/) 
-  - Very good - walks you through everything you need to know
+  - Very good - walks you through everything you need to know, but old
 - [Types of Developers/Contributors](https://wiki.openmrs.org/display/docs/Different+Types+of+OpenMRS+Developers)
 - [Developer Stages](https://wiki.openmrs.org/display/RES/OpenMRS+Developer+Stages)
   - Start by getting the /dev/null badge
-- [Installation For Developers](http://devmanual.openmrs.org/en/Technology/getSetUp.html)
-  - [IDE Info](https://wiki.openmrs.org/display/docs/How-To+Setup+And+Use+Your+IDE)
-  - [Another setup guide](http://devmanual.openmrs.org/en/Technology/getSetUp.html)
-  - [Github Readme](https://github.com/openmrs/openmrs-core/blob/master/README.md#build)
 - [Conventions](https://wiki.openmrs.org/display/docs/Conventions)
   - [Java Conventions](https://wiki.openmrs.org/display/docs/Java+Conventions)
     - _I need to become more familiar with [javadocs](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)_
@@ -34,6 +30,17 @@ There's the [wiki](https://wiki.openmrs.org/display/docs/Developer+Guide) and al
     - [Submitting Code How To](https://wiki.openmrs.org/display/docs/How-To+Submit+Code) (out of date?)
   - [Unit Test Conventions](https://wiki.openmrs.org/display/docs/Unit+Testing+Conventions) and [Guide](https://wiki.openmrs.org/display/docs/Unit+Tests)
 - [Development screencasts on YouTube](https://www.youtube.com/user/OpenMRS)
+
+## Installation
+
+- [Troubleshooting Installation Page](https://wiki.openmrs.org/display/docs/Troubleshooting+Installation)
+- [Installation For Developers](http://devmanual.openmrs.org/en/Technology/getSetUp.html) (Dev Manual)
+  - Wiki: [Step by Step Installation for Developers](https://wiki.openmrs.org/display/docs/Step+by+Step+Installation+for+Developers)
+  - Wiki: [OpenMRS Installation for Developers on Ubuntu](https://wiki.openmrs.org/display/docs/OpenMRS+Installation+for+Developers+on+Ubuntu)
+  - Wiki: [IDE Setup](https://wiki.openmrs.org/display/docs/How-To+Setup+And+Use+Your+IDE)
+  - Github Readme: [Setup Info](https://github.com/openmrs/openmrs-core/blob/master/README.md#build)
+- [Setting Up a Development Environment for OpenMRS 2.x](https://wiki.openmrs.org/display/projects/Setting+Up+a+Development+Environment+for+OpenMRS+2.x)
+  - Part of the [Reference Application 2.x Developer Documentation](https://wiki.openmrs.org/display/projects/Reference+Application+2.x+Developer+Documentation), separate from the main wiki
 
 
 ## Communication
@@ -93,8 +100,3 @@ There's the [wiki](https://wiki.openmrs.org/display/docs/Developer+Guide) and al
   <td>The main maven file used to build and package OpenMRS.</td>
  </tr>  
 </table>
-
-## Issues I Could Run Into
-
-- Java versions (JDK, JRE)
-- MySQL version
