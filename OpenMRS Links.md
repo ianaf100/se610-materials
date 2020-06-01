@@ -17,6 +17,8 @@ My notes for contributing to [OpenMRS](https://openmrs.org/).
   - [Another One](http://devmanual.openmrs.org/en/What_next/devChecklist.html)
 - [A Separate Getting Started Guide](https://mauryanguidetoopenmrsdevs.wordpress.com/) 
   - Very good - walks you through everything you need to know, but old
+- [EHSDI Training Course](https://wiki.openmrs.org/display/RES/EHSDI+Training+Course)
+  - A full course teaching fundamentals and OpenMRS development for Rwanda students
 - [Types of Developers/Contributors](https://wiki.openmrs.org/display/docs/Different+Types+of+OpenMRS+Developers)
 - [Developer Stages](https://wiki.openmrs.org/display/RES/OpenMRS+Developer+Stages)
   - Start by getting the /dev/null badge
@@ -38,6 +40,7 @@ My notes for contributing to [OpenMRS](https://openmrs.org/).
   - Wiki: [Step by Step Installation for Developers](https://wiki.openmrs.org/display/docs/Step+by+Step+Installation+for+Developers)
   - Wiki: [OpenMRS Installation for Developers on Ubuntu](https://wiki.openmrs.org/display/docs/OpenMRS+Installation+for+Developers+on+Ubuntu)
   - Wiki: [IDE Setup](https://wiki.openmrs.org/display/docs/How-To+Setup+And+Use+Your+IDE)
+    - [Debugging OpenMRS in IntelliJ](http://techie-notebook.blogspot.com/2012/12/debugging-code-in-intellij-for-openmrs.html)
   - Github Readme: [Setup Info](https://github.com/openmrs/openmrs-core/blob/master/README.md#build)
 - [Setting Up a Development Environment for OpenMRS 2.x](https://wiki.openmrs.org/display/projects/Setting+Up+a+Development+Environment+for+OpenMRS+2.x)
   - Part of the [Reference Application 2.x Developer Documentation](https://wiki.openmrs.org/display/projects/Reference+Application+2.x+Developer+Documentation), separate from the main wiki
